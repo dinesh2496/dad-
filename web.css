@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: gray;
+}
+
+h1
+{
+	color: black;
+	
+
+}
+
+
+        /* Apply the background image to the entire page */
+        body {
+            background-image:('web App/src/background.jpeg'); /* Path to your image */
+            background-repeat: no-repeat; /* Prevents repeating the image */
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-position: center; /* Centers the image */
+            height: 100vh; /* Sets the body height to 100% of the viewport height */
+            margin: 0; /* Remove default margin */
+            font-family: Arial, sans-serif;
+        }
